@@ -28,7 +28,9 @@ public class ProductService {
 		return prodmap;
 	}
 	public Map<Integer, Product> display() {
+		System.out.println(prodmap);
 		return prodmap;
 	}
+	
 
 }
